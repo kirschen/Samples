@@ -16,6 +16,8 @@ elif os.environ['USER'] in ['priya.hussain']:
     dbDir = '/mnt/hephy/cms/priya.hussain/StopsCompressed/cache/samples/'
 elif os.environ['USER'] in ['schoef']:
     dbDir = '/afs/hephy.at/data/rschoefbeck01/nanoAOD/'
+elif os.environ['USER'] in ['kirschen']:
+    dbDir = '/afs/cern.ch/work/k/kirschen/private/JetMET_L2/ResidualAnalyses/StopsDileptonForPostProcessing/samplecache'
 elif os.environ['USER'] in ['robert.schoefbeck']:
     dbDir = '/users/robert.schoefbeck/caches/Samples'
 elif os.environ['USER'] in ['mdoppler']:
